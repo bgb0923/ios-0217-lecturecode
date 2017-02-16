@@ -13,6 +13,8 @@
 		8F2C98381E55EEBE0051D71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2C98371E55EEBE0051D71E /* Assets.xcassets */; };
 		8F2C983B1E55EEBE0051D71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2C98391E55EEBE0051D71E /* LaunchScreen.storyboard */; };
 		8F2C984B1E55F94E0051D71E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2C984A1E55F94E0051D71E /* Extensions.swift */; };
+		8F6EAC251E5604D40011710D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EAC241E5604D40011710D /* CollectionViewController.swift */; };
+		8F6EAC271E560C1C0011710D /* CollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EAC261E560C1C0011710D /* CollectCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8F2C983A1E55EEBE0051D71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2C983C1E55EEBE0051D71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F2C984A1E55F94E0051D71E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F6EAC241E5604D40011710D /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8F6EAC261E560C1C0011710D /* CollectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				8F2C98301E55EEBE0051D71E /* AppDelegate.swift */,
+				8F6EAC241E5604D40011710D /* CollectionViewController.swift */,
 				8F2C98321E55EEBE0051D71E /* ViewController.swift */,
 				8F2C984A1E55F94E0051D71E /* Extensions.swift */,
+				8F6EAC261E560C1C0011710D /* CollectCell.swift */,
 				8F2C98341E55EEBE0051D71E /* Main.storyboard */,
 				8F2C98371E55EEBE0051D71E /* Assets.xcassets */,
 				8F2C98391E55EEBE0051D71E /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6EAC251E5604D40011710D /* CollectionViewController.swift in Sources */,
 				8F2C984B1E55F94E0051D71E /* Extensions.swift in Sources */,
+				8F6EAC271E560C1C0011710D /* CollectCell.swift in Sources */,
 				8F2C98331E55EEBE0051D71E /* ViewController.swift in Sources */,
 				8F2C98311E55EEBE0051D71E /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +312,7 @@
 				8F2C98411E55EEBE0051D71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
